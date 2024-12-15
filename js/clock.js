@@ -10,5 +10,5 @@ function getClock() {
 }
 
 getClock();
-setInterval(getClock, 1000);
+setInterval(gerClock, 1000);
 
