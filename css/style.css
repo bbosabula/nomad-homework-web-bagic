@@ -1,0 +1,105 @@
+.hidden{
+    display: none;
+}
+
+body,html{
+    text-align: center;
+    height: 95%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body img{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    top : 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: -1;
+}
+
+#clock{
+    position: absolute;
+    left: 50%;
+    top:20%;
+    transform: translate(-50%,-50%);
+    color: whitesmoke;
+    text-shadow: 2px 7px 6px gray; 
+    font-size: 100px;
+    font-family: 'Times New Roman', Times, serif;
+}
+#login-form{
+    position: absolute;
+    left: 50%;
+    top:20%;
+    transform: translate(-50%,-50%);
+}
+#greeting{
+    text-shadow: 2px 7px 6px gray; 
+    position: absolute;
+    left: 50%;
+    top:20%;
+    transform: translate(-50%,-50%);
+    color: whitesmoke;
+    font-family: 'Times New Roman', Times, serif;
+}
+#todo-form{
+    color: whitesmoke;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    font-family: 'Times New Roman', Times, serif;
+}
+#todo-list{
+    font-weight: bold;
+    font-size: 15px;
+    text-shadow: 4px 7px 20px black; 
+    font-style: bold;
+    color: whitesmoke;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%);
+    font-family:Arial, Helvetica, sans-serif;
+}
+#quote{
+    text-shadow: 2px 7px 6px gray; 
+    color: whitesmoke;
+    font-size: 13px;
+    position: absolute;
+    left: 1%;
+    top:95%;
+    font-style: italic;
+    font-family: serif;
+}
+#weather{
+    float: right;
+    text-align: right;
+    text-shadow: 2px 7px 6px gray; 
+    color: whitesmoke;
+    font-family: 'Times New Roman', Times, serif;
+}
+li button{
+    background-color: transparent;
+    border-color: transparent;
+}
+input{
+    font-size: 15px;
+    color: white;
+    background-color: transparent;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1.5px solid black;
+    text-shadow: 2px 7px 6px white; 
+    width: 100%;
+}
+input::placeholder{
+    color:whitesmoke;
+    text-shadow: 2px 7px 6px gray; 
+    text-align: center;
+}
